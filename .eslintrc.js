@@ -13,6 +13,8 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'no-console': 'off',
+    'import/prefer-default-export': 'off',
+    'class-methods-use-this': 'off',
     camelcase: 'off',
     'import/extensions': [
       'error',
